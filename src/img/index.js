@@ -51,59 +51,215 @@ import ace_d from "./ace_of_diamonds.png";
 import ace_h from "./ace_of_hearts.png";
 import ace_s from "./ace_of_spades.png";
 
-const CARD_IMAGES = {
-  two_c,
-  two_d,
-  two_h,
-  two_s,
-  three_d,
-  three_c,
-  three_h,
-  three_s,
-  four_c,
-  four_d,
-  four_h,
-  four_s,
-  five_c,
-  five_d,
-  five_h,
-  five_s,
-  six_c,
-  six_d,
-  six_h,
-  six_s,
-  seven_c,
-  seven_d,
-  seven_h,
-  seven_s,
-  eight_c,
-  eight_d,
-  eight_h,
-  eight_s,
-  nine_c,
-  nine_d,
-  nine_h,
-  nine_s,
-  ten_c,
-  ten_d,
-  ten_h,
-  ten_s,
-  jack_c,
-  jack_d,
-  jack_h,
-  jack_s,
-  queen_c,
-  queen_d,
-  queen_h,
-  queen_s,
-  king_c,
-  king_d,
-  king_h,
-  king_s,
-  ace_c,
-  ace_d,
-  ace_h,
-  ace_s,
-};
+const CARD_IMAGES = [
+  {
+    photo: two_c,
+    value: "2c",
+  },
+  {
+    photo: two_d,
+    value: "2d",
+  },
+  {
+    photo: two_h,
+    value: "2h",
+  },
+  {
+    photo: two_s,
+    value: "2s",
+  },
+  {
+    photo: three_c,
+    value: "3c",
+  },
+  {
+    photo: three_d,
+    value: "3d",
+  },
+  {
+    photo: three_h,
+    value: "3h",
+  },
+  {
+    photo: three_s,
+    value: "3s",
+  },
+  {
+    photo: four_c,
+    value: "4c",
+  },
+  {
+    photo: four_d,
+    value: "4d",
+  },
+  {
+    photo: four_h,
+    value: "4h",
+  },
+  {
+    photo: four_s,
+    value: "4s",
+  },
+  {
+    photo: five_c,
+    value: "5c",
+  },
+  {
+    photo: five_d,
+    value: "5d",
+  },
+  {
+    photo: five_h,
+    value: "5h",
+  },
+  {
+    photo: five_s,
+    value: "5s",
+  },
+  {
+    photo: six_c,
+    value: "6c",
+  },
+  {
+    photo: six_d,
+    value: "6d",
+  },
+  {
+    photo: six_h,
+    value: "6h",
+  },
+  {
+    photo: six_s,
+    value: "6s",
+  },
+  {
+    photo: seven_c,
+    value: "7c",
+  },
+  {
+    photo: seven_d,
+    value: "7d",
+  },
+  {
+    photo: seven_h,
+    value: "7h",
+  },
+  {
+    photo: seven_s,
+    value: "7s",
+  },
+  {
+    photo: eight_c,
+    value: "8c",
+  },
+  {
+    photo: eight_d,
+    value: "8d",
+  },
+  {
+    photo: eight_h,
+    value: "8h",
+  },
+  {
+    photo: eight_s,
+    value: "8s",
+  },
+  {
+    photo: nine_c,
+    value: "9c",
+  },
+  {
+    photo: nine_d,
+    value: "9d",
+  },
+  {
+    photo: nine_h,
+    value: "9h",
+  },
+  {
+    photo: nine_s,
+    value: "9s",
+  },
+  {
+    photo: ten_c,
+    value: "10c",
+  },
+  {
+    photo: ten_d,
+    value: "10d",
+  },
+  {
+    photo: ten_h,
+    value: "10h",
+  },
+  {
+    photo: ten_s,
+    value: "10s",
+  },
+  {
+    photo: jack_c,
+    value: "Jc",
+  },
+  {
+    photo: jack_d,
+    value: "Jd",
+  },
+  {
+    photo: jack_h,
+    value: "Jh",
+  },
+  {
+    photo: jack_s,
+    value: "Js",
+  },
+  {
+    photo: queen_c,
+    value: "Qc",
+  },
+  {
+    photo: queen_d,
+    value: "Qd",
+  },
+  {
+    photo: queen_h,
+    value: "Qh",
+  },
+  {
+    photo: queen_s,
+    value: "Qs",
+  },
+  {
+    photo: king_c,
+    value: "Kc",
+  },
+  {
+    photo: king_d,
+    value: "Kd",
+  },
+  {
+    photo: king_h,
+    value: "Kh",
+  },
+  {
+    photo: king_s,
+    value: "Ks",
+  },
+  {
+    photo: ace_c,
+    value: "Ac",
+  },
+  {
+    photo: ace_d,
+    value: "Ad",
+  },
+  {
+    photo: ace_h,
+    value: "Ah",
+  },
+  {
+    photo: ace_s,
+    value: "As",
+  },
+];
 
 export default CARD_IMAGES;
