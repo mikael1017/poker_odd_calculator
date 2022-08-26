@@ -1,0 +1,22 @@
+
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+/* 
+.SeatContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+} */
+
+.Seat {
+    display: flex;
+}
+
+.Column {
+    padding: 5px;
+}

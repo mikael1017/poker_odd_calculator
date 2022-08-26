@@ -1,21 +1,20 @@
 import React from "react";
 
 export default function SingleCard({ card }) {
-  const selectedCard = () => {
-    //
+  const handleClick = (e) => {
+    console.log(e.target.id);
   };
 
   return (
     <div className="card">
-      <div>
-        <img
-          className="front"
-          key={card.value}
-          src={card.photo}
-          width={50}
-          height={50}
-        />
-      </div>
+      <img
+        className="front"
+        id={card.value}
+        src={card.photo}
+        width={50}
+        height={50}
+        onClick={handleClick}
+      />
     </div>
   );
 }

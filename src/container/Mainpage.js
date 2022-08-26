@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SingleCard from "../components/SingleCard";
 import CARD_IMAGES from "../img/index";
 import { Button, Card } from "react-bootstrap";
+import "./Mainpage.css";
+import Seat from "../components/Seat";
 
 export default function Mainpage() {
   const [cards, setCards] = useState();
@@ -20,10 +22,13 @@ export default function Mainpage() {
             Home
           </Button>
         </div>
-        <div className="m-2 border-0">
+        <div className="CardContainer">
           {CARD_IMAGES.map((card, idx) => (
             <SingleCard key={card.value} card={card} />
           ))}
+        </div>
+        <div className="SeatContainer">
+          <Seat />
         </div>
       </header>
     </div>
